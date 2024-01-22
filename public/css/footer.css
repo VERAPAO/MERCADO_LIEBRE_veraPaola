@@ -1,0 +1,45 @@
+
+.home-footer {
+    margin-top: 70px;
+    color: var(--grisOscuro);
+
+}
+
+.home-footer section.pago {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.home-footer section.envio {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.home-footer section.seguridad {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.home-footer section.copyright {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+
+.home-footer h4 {
+    font-size: var(--tamañoTitulares);
+  
+}
+
+.home-footer p {
+    font-size: var(--tamañoTextosGral);
+    width: 250px;
+    margin: auto;
+
+}
+
+.home-footer div i {
+    color: var(--celeste);
+    font-size: 2rem;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,117 @@
+header-home {
+    font-family: var(--familyRoboto);
+    font-size: var(--tamañoTextoGral);
+}
+
+
+header.header-home div.contenedor-header {
+    width: 100%;
+    background-color: var(--amarillo);
+    margin: 0px;
+
+}
+
+
+.header-home .logo-mercado-liebre img {
+    width: 150px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.header-home input.barra-busqueda-header{
+    display: block;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+
+
+
+
+.header-home div.compras {
+    display: flex;
+    margin-left: 15%;
+}
+
+
+.header-home div p.comprar-tarjeta{
+    display: inline-block;
+    text-align: center;
+    width: fit-content;
+
+}
+
+
+.header-home div i.fa-hand-holding-dollar {
+    position: relative;
+    top: 2px;
+}
+
+
+.header-home div.iconsearch-header-home {
+    margin:10px;
+    background-color: var(--grisClaro);
+    display: inline-block;
+    padding: 1px;
+    border: 1px solid var(--grisOscuro);
+    border-radius: 15%;
+    margin-top: 1px;
+}
+
+.header-home nav ul.nav-bar {
+    list-style: none;
+    display: inline-block;
+    padding-left: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+   
+}
+
+
+.header-home nav ul.nav-bar li a {
+   
+}
+
+.header-home nav ul.login {
+    display: inline-block;
+    padding-left: 0px;
+    margin-bottom: 25px;
+}
+
+.header-home nav ul.login li a {
+  
+}
+
+.header-home nav ul.login li i.fa-id-card {
+    display: inline-block;
+    margin-left: 2px;
+}
+
+.header-home nav ul.login li i.fa-right-to-bracket{
+    display: inline-block;
+    margin-left: 2px;
+}
+
+.header-home nav ul.login li i.fa-basket-shopping {
+    display: inline-block;
+    margin-left: 2px;
+}
+
+.header-home div.burger-menu {
+    display: flexblock;
+    position: relative;
+    bottom: 15px;
+    text-align: center;
+    width: 40px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 24px;
+    color: var(--blanco);
+    background-color: var(--azul);
+    border-radius: 10%;
+}
+
+
