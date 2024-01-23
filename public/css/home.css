@@ -1,1 +1,292 @@
+main.main-home{
+    width: 100%;
+    text-align: center;
+    background-color: var(--grisClaro);
+    margin: 0 0 10px 0;
+    }
 
+main.main-home div.banner-container{
+}
+
+main.main-home div.banner-container img{width: 100%;}
+
+
+main.main-home section.article-container {
+    width: 90vw;margin: auto;
+
+}
+
+main.main-home section.last-section {
+margin-bottom: 40px;
+}
+
+main.main-home section.article-container h3 {
+
+text-align: left;
+
+margin: 5px 0 20px 0;
+
+color: var(--grisOscuro);
+
+font-size: var(--tamañoTitulares);
+}
+
+main.main-home section.article-container article.product-container {
+
+margin: 10px auto;
+
+width: 100%;
+
+background-color: var(--blanco);
+}
+
+main.main-home section.article-container article.product-container img {
+
+width: 100%;
+
+/* margin-left: 18px; */
+
+/* padding: 0; */
+}
+
+main.main-home section.article-container article.product-container div.card-text {border-top: 1px solid var(--grisClaro);background-color: var(--blanco);padding: 15px;/* margin-left: 18px; */width: 100%;}
+
+main.main-home section.article-container article.product-container div.card-text div{
+    
+position: relative;
+    
+height: 45px;
+    
+width: 45px;
+    
+border: 1px solid var(--verde);
+    
+border-radius: 50%;
+    
+margin: 15 px 0 0 0;
+}
+
+main.main-home section.article-container article.product-container div.card-text div i.fa-circle {
+
+position: absolute;
+
+top: 0;
+
+left: 0px;
+
+font-size: 4rem;
+
+border-radius: 60%;
+
+font-weight: 100;
+
+/* width: 100%; */
+
+/* border: 1px solid green; */
+}
+
+main.main-home section.article-container article.product-container div.card-text div i.fa-truck{
+
+position: absolute;
+
+top: -13px;
+
+left: -14px;
+
+/* border: 1px solid green; */
+
+/* border-radius: 50%; */
+
+padding: 20px;
+
+color: var(--verde);
+}
+
+
+
+
+main.main-home section.article-container article.product-container div.card-text p.precio {
+
+text-align: left;
+
+/* margin: 0 0 0 14px; */
+
+font-size: var(--tamañoPrecios);
+}
+
+
+main.main-home section.article-container article.product-container div.card-text p.descuento{
+
+text-align: left;
+
+/* margin: 0 0 0 14px; */
+
+font-size: var(--tamañoDescuentos);
+
+color: var(--verde);
+}
+
+main.main-home section.article-container article.product-container div.card-text h4 {
+
+text-align: left;
+
+margin: 15px 0 10px 0;
+
+font-size: var(--tamañoDescripciones);
+
+color: var(--grisOscuro);
+
+display: none;
+}
+
+
+
+
+@media (min-width: 361px) {
+
+    main.main-home{
+      
+    }
+    
+    main.main-home div.banner-container{
+    }
+    
+    main.main-home div.banner-container img{
+       
+    }
+    
+    
+    main.main-home section.article-container {
+       
+    }
+    
+    main.main-home section.article-container h3 {
+    
+    
+    }
+    
+    main.main-home section.article-container article.product-container {
+    
+box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    
+    main.main-home section.article-container article.product-container img {
+    
+  
+    }
+    
+    main.main-home section.article-container article.product-container div.card-text {
+ 
+    }
+    
+    main.main-home section.article-container article.product-container div.card-text div{
+        
+
+    }
+    
+    main.main-home section.article-container article.product-container div.card-text div i.fa-circle {
+    
+    
+    }
+    
+    main.main-home section.article-container article.product-container div.card-text div i.fa-truck{
+    
+    
+    }
+    
+    
+    
+    
+    main.main-home section.article-container article.product-container div.card-text p.precio {
+    
+   
+    }
+    
+    
+    main.main-home section.article-container article.product-container div.card-text p.descuento{
+    
+
+    }
+    
+    main.main-home section.article-container article.product-container div.card-text h4 {
+    display: block;
+    }
+    
+
+    
+}
+
+
+@media (min-width: 769px) {
+    
+    main.main-home{
+        
+    }
+    
+    main.main-home div.banner-container{
+    }
+    
+    main.main-home div.banner-container img{
+       
+
+    }
+    
+    
+    main.main-home section.article-container {
+        
+    }
+    
+    main.main-home section.article-container h3 {
+    
+    
+    }
+    
+    main.main-home section.article-container article.product-container {
+  
+    }
+    
+    main.main-home section.article-container article.product-container img {
+  
+    }
+    
+    main.main-home section.article-container article.product-container div.card-text {
+   
+    }
+    
+    main.main-home section.article-container article.product-container div.card-text div{
+        
+
+    }
+    
+    main.main-home section.article-container article.product-container div.card-text div i.fa-circle {
+    
+  
+    }
+    
+    main.main-home section.article-container article.product-container div.card-text div i.fa-truck{
+    
+    
+    }
+    
+    
+    
+    main.main-home section.article-container article.product-container div.card-text p.precio {
+    
+    
+    }
+    
+    
+    main.main-home section.article-container article.product-container div.card-text p.descuento{
+    
+  
+    }
+    
+    main.main-home section.article-container article.product-container div.card-text h4 {
+    
+    }
+    
+}
+
+
+
+}

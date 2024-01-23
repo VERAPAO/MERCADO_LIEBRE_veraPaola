@@ -12,44 +12,70 @@ header.header-home div.contenedor-header {
 }
 
 
-.header-home .logo-mercado-liebre img {
+.header-home  div.contenedor-header .logo-mercado-liebre img {
     width: 150px;
     margin-top: 30px;
     margin-left: 20px;
     margin-bottom: 10px;
 }
 
-.header-home input.barra-busqueda-header{
-    display: block;
-    margin-left: 10px;
-    margin-bottom: 0;
+.header-home  div.contenedor-header div.search-container {
+
 }
+
+.header-home  div.contenedor-header div.search-container search {
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.header-home  div.contenedor-header div.search-container search form {
+    padding-right: 5px;
+}
+
+
+.header-home  div.contenedor-header div.search-container search form input.barra-busqueda-header {
+    height: 25px;
+    width: 180px;
+    /* padding-left: 5px; */
+    /* display: block; */
+    margin-left: 10px;
+    /* margin-bottom: 0; */
+}
+
+
+.header-home  div.contenedor-header div.search-container div.iconsearch-header-home i.fa-magnifying-glass {}
+
 
 
 
 
 .header-home div.compras {
-    display: flex;
+    position: relative;
     margin-left: 15%;
+    margin-top: 10px;
 }
 
 
 .header-home div p.comprar-tarjeta{
-    display: inline-block;
+    /* display: block; */
     text-align: center;
     width: fit-content;
-
+    font-size: var(--tamañoTextosGral);
+    transform: translateX(10px);
 }
 
 
 .header-home div i.fa-hand-holding-dollar {
-    position: relative;
+    display: inline-block;
+    position: absolute;
+    left: -2px;
     top: 2px;
+    font-size: var(--tamañoTextosGral);
 }
 
 
 .header-home div.iconsearch-header-home {
-    margin:10px;
+    /* margin:10px; */
     background-color: var(--grisClaro);
     display: inline-block;
     padding: 1px;
@@ -58,13 +84,19 @@ header.header-home div.contenedor-header {
     margin-top: 1px;
 }
 
+.header-home nav {
+
+display: none;
+}
+
+
 .header-home nav ul.nav-bar {
     list-style: none;
     display: inline-block;
-    padding-left: 0px;
+    padding-left: 5px;
     margin-top: 15px;
     margin-bottom: 15px;
-   
+    font-size: var(--tamañoTextosGral);
 }
 
 
@@ -97,8 +129,8 @@ header.header-home div.contenedor-header {
     margin-left: 2px;
 }
 
-.header-home div.burger-menu {
-    display: flexblock;
+.header-home div.contenedor-header div.burger-menu {
+    display: block;
     position: relative;
     bottom: 15px;
     text-align: center;
@@ -107,11 +139,175 @@ header.header-home div.contenedor-header {
     padding-left: 10px;
     padding-right: 10px;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 35px;
     font-size: 24px;
     color: var(--blanco);
-    background-color: var(--azul);
+    background-color: var(--celeste);
     border-radius: 10%;
 }
 
+
+@media (min-width: 361px) {
+
+    header-home {
+       
+    }
+    
+    
+    header.header-home div.contenedor-header {
+      
+    
+    }
+    
+    
+    .header-home .logo-mercado-liebre img {
+    
+    }
+    
+    .header-home input.barra-busqueda-header{
+       
+    }
+    
+
+    .header-home div.compras {
+       
+    }
+    
+    
+    .header-home div p.comprar-tarjeta{
+  transform: translateX(30px);
+  }
+    
+    
+    .header-home div i.fa-hand-holding-dollar {
+   left: 15px;
+   }
+    
+    
+    .header-home div.iconsearch-header-home {
+    }
+
+    .header-home nav {
+    display: block;
+    }
+    
+    .header-home nav ul.nav-bar {
+    
+       
+    }
+    
+    
+    .header-home nav ul.nav-bar li a {
+       
+    }
+    
+    .header-home nav ul.login {
+      padding-left: 5px;
+      font-size: var(--tamañoTextosGral);
+    }
+    
+    .header-home nav ul.login li a {
+      
+    }
+    
+    .header-home nav ul.login li i.fa-id-card {
+    
+    }
+    
+    .header-home nav ul.login li i.fa-right-to-bracket{
+       
+    }
+    
+    .header-home nav ul.login li i.fa-basket-shopping {
+  
+    }
+    
+    .header-home div.contenedor-header div.burger-menu {
+       display: none;
+    }
+
+}
+
+
+@media (min-width: 769px) {
+
+    header-home {
+       
+    }
+    
+    
+    header.header-home div.contenedor-header {
+      
+    
+    }
+    
+    
+    .header-home .logo-mercado-liebre img {
+    
+    }
+    
+    .header-home input.barra-busqueda-header{
+       
+    }
+    
+
+    .header-home div.compras {
+       
+    }
+    
+    
+    .header-home div p.comprar-tarjeta{
+  transform: translateX(150px);
+  }
+    
+    
+    .header-home div i.fa-hand-holding-dollar {
+   left: 135px;
+   }
+    
+    
+    .header-home div.iconsearch-header-home {
+     
+    }
+
+    .header-home nav {
+    
+    }
+    
+    .header-home nav ul.nav-bar {
+    
+       
+    }
+    
+    
+    .header-home nav ul.nav-bar li a {
+       
+    }
+    
+    .header-home nav ul.login {
+      
+    }
+    
+    .header-home nav ul.login li a {
+      
+    }
+    
+    .header-home nav ul.login li i.fa-id-card {
+    
+    }
+    
+    .header-home nav ul.login li i.fa-right-to-bracket{
+       
+    }
+    
+    .header-home nav ul.login li i.fa-basket-shopping {
+  
+    }
+    
+    .header-home div.contenedor-header div.burger-menu {
+       
+    }
+
+
+}
 

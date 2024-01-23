@@ -1,8 +1,7 @@
 
 .home-footer {
-    margin-top: 70px;
+    margin-top: 60px;
     color: var(--grisOscuro);
-
 }
 
 .home-footer section.pago {
@@ -42,4 +41,81 @@
     color: var(--celeste);
     font-size: 2rem;
     margin-bottom: 10px;
+}
+
+
+@media (min-width: 361px){
+
+    
+    .home-footer {
+       
+    }
+
+    .home-footer section.pago {
+    
+    }
+
+    .home-footer section.envio {
+    
+    }
+
+    .home-footer section.seguridad {
+    
+    }
+
+    .home-footer section.copyright {
+    
+    }
+
+
+    .home-footer h4 {
+ 
+  
+    }
+
+    .home-footer p {
+    
+    }
+
+    .home-footer div i {
+    
+    }
+
+}
+
+@media (min-width: 769px) {
+
+    .home-footer {
+       
+    }
+
+    .home-footer section.pago {
+    
+    }
+
+    .home-footer section.envio {
+    
+    }
+
+    .home-footer section.seguridad {
+    
+    }
+
+    .home-footer section.copyright {
+    
+    }
+
+
+    .home-footer h4 {
+ 
+  
+    }
+
+    .home-footer p {
+    
+    }
+
+    .home-footer div i {
+    
+    }
 }
