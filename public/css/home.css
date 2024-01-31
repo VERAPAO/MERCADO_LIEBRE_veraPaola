@@ -5,33 +5,45 @@ main.main-home{
     margin: 0 0 10px 0;
     }
 
-main.main-home div.banner-container{
-}
+main.main-home div.banner-container{/* display: flex; */}
 
 main.main-home div.banner-container img{width: 100%;}
 
 
 main.main-home section.article-container {
-    width: 90vw;margin: auto;
-
+    width: 90vw;
+    margin: auto;
+    /* display: flex; */
+    flex-wrap: wrap;
 }
 
 main.main-home section.last-section {
-margin-bottom: 40px;
+
+margin-bottom: 40px;
 }
 
 main.main-home section.article-container h3 {
 
-text-align: left;
+text-align: center;
 
 margin: 5px 0 20px 0;
 
 color: var(--grisOscuro);
 
 font-size: var(--tamañoTitulares);
+
+flex-grow: 1;
+}
+
+main.main-home section.article-container div.article-container-flex{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
 }
 
 main.main-home section.article-container article.product-container {
+
+gap: 5px;
 
 margin: 10px auto;
 
@@ -49,15 +61,25 @@ width: 100%;
 /* padding: 0; */
 }
 
-main.main-home section.article-container article.product-container div.card-text {border-top: 1px solid var(--grisClaro);background-color: var(--blanco);padding: 15px;/* margin-left: 18px; */width: 100%;}
+main.main-home section.article-container article.product-container div.card-text {border-top: 1px solid var(--grisClaro);background-color: var(--blanco);padding: 15px;/* margin-left: 18px; */width: 95%;position: relative;}
 
-main.main-home section.article-container article.product-container div.card-text div{
+
+main.main-home section.article-container article.product-container div.card-text div.global-container-truck {
+
+position: absolute;
+
+right: 20px;
+
+top: -15px;
+}
+
+main.main-home section.article-container article.product-container div.card-text div.global-container-truck div {
     
-position: relative;
+/* position: relative; */
     
-height: 45px;
+height: 30px;
     
-width: 45px;
+width: 30px;
     
 border: 1px solid var(--verde);
     
@@ -100,37 +122,86 @@ left: -14px;
 padding: 20px;
 
 color: var(--verde);
+
+font-size: 16px;
+
+width: 30px;
 }
 
 
+main.main-home section.article-container article.product-container div.card-text div.container-data-product {
+    /* display: flex; */
+    width: 100%;
+    margin: 0;
+    padding: 30px 0px 10px 0px;
+    position: relative;
+}
 
+main.main-home section.article-container article.product-container div.card-text div.container-data-product p.precio {
 
-main.main-home section.article-container article.product-container div.card-text p.precio {
+/* text-align: right; */
 
-text-align: left;
+position: absolute;
+
+/* padding-right: 10px; */
+
+display: inline-block;
+
+/* text-align: center; */
 
 /* margin: 0 0 0 14px; */
+
+font-weight: 500;
 
 font-size: var(--tamañoPrecios);
+
+color: var(--negro);
+
+left: 5px;
+
+width: 30%;
+
+top: 6px;
+
+/* left: 15px; */
 }
 
 
-main.main-home section.article-container article.product-container div.card-text p.descuento{
+main.main-home section.article-container article.product-container div.card-text div.container-data-product p.descuento{
 
 text-align: left;
 
 /* margin: 0 0 0 14px; */
+
+align-self: end;
+
+justify-content: start;
 
 font-size: var(--tamañoDescuentos);
 
 color: var(--verde);
+
+display: inline-block;
+
+width: 70%;
+
+position: absolute;
+
+top: 8px;
+
+right: -20px;
+
+margin-botton: 10px;
 }
 
-main.main-home section.article-container article.product-container div.card-text h4 {
 
-text-align: left;
+main.main-home section.article-container article.product-container div.card-text  h4 {
 
-margin: 15px 0 10px 0;
+/* text-align: left; */
+
+margin: 20px 0 10px 0;
+
+/* padding-left: 12px; */
 
 font-size: var(--tamañoDescripciones);
 
@@ -164,15 +235,22 @@ display: none;
     
     
     }
+
+    main.main-home section.article-container div.article-container-flex{
+    /* flex-direction: column; */
+}
+
     
     main.main-home section.article-container article.product-container {
-    
-box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    width: 47%;
+    margin-left: 5px;
+    gap: 5px;
     }
     
     main.main-home section.article-container article.product-container img {
     
-  
+widht: 50%;
     }
     
     main.main-home section.article-container article.product-container div.card-text {
@@ -197,19 +275,30 @@ box-shadow: 0px 0px 10px rgb(100, 100, 100);
     
     
     
-    main.main-home section.article-container article.product-container div.card-text p.precio {
+    main.main-home section.article-container article.product-container div.card-text div.container-data-product p.precio {
     
    
     }
     
     
-    main.main-home section.article-container article.product-container div.card-text p.descuento{
+    main.main-home section.article-container article.product-container div.card-text div.container-data-product p.descuento{
     
-
+text-align: right;
+    
+right: 2px;
     }
     
+
+
+
+
     main.main-home section.article-container article.product-container div.card-text h4 {
+    /* width: 100%; */
+    /* padding-left: 9%; */
     display: block;
+    /* width: 50%; */
+    margin-bottom: 20px;
+    text-align: left;
     }
     
 
@@ -233,17 +322,20 @@ box-shadow: 0px 0px 10px rgb(100, 100, 100);
     
     
     main.main-home section.article-container {
-        
+    width: 96vw;
+    margin-bottom: 30px;
     }
     
     main.main-home section.article-container h3 {
     
     
     }
+
+    main.main-home section.article-container div.article-container-flex{}
     
     main.main-home section.article-container article.product-container {
-  
-    }
+  width: 24%;
+  }
     
     main.main-home section.article-container article.product-container img {
   
@@ -270,19 +362,23 @@ box-shadow: 0px 0px 10px rgb(100, 100, 100);
     
     
     
-    main.main-home section.article-container article.product-container div.card-text p.precio {
+    main.main-home section.article-container article.product-container div.card-text div.container-data-product p.precio {
     
     
     }
     
     
-    main.main-home section.article-container article.product-container div.card-text p.descuento{
-    
-  
+    main.main-home section.article-container article.product-container div.card-text div.container-data-product p.descuento{
+    right: -3px;
     }
+
+   
     
     main.main-home section.article-container article.product-container div.card-text h4 {
     
+        display: block;
+
+
     }
     
 }
