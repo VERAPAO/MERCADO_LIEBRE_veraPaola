@@ -32,9 +32,8 @@
 
 .home-footer p {
     font-size: var(--tamañoTextosGral);
-    width: 250px;
+    width: 80%;
     margin: auto;
-
 }
 
 .home-footer div i {
@@ -48,7 +47,7 @@
 
     
     .home-footer {
-       
+       width: 100%;
     }
 
     .home-footer section.pago {
