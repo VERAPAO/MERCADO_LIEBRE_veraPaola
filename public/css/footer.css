@@ -30,24 +30,33 @@
   
 }
 
-.home-footer p {
-    font-size: var(--tamañoTextosGral);
-    width: 80%;
-    margin: auto;
-}
+    .home-footer p {
+        font-size: var(--tamañoTextosGral);
+        width: 80%;
+        margin: auto;
+    }
 
-.home-footer div i {
-    color: var(--celeste);
-    font-size: 2rem;
-    margin-bottom: 10px;
-}
+    .home-footer div i {
+        color: var(--celeste);
+        font-size: 2rem;
+        margin-bottom: 10px;
+        transition: color 2s, font-size 1s;
+        transition-delay: 2ms;
+    }
+
+    .home-footer div i:hover {
+        color: var(--verde);
+        font-size: 2.5rem;
+
+    }
 
 
 @media (min-width: 361px){
 
     
     .home-footer {
-       width: 100%;
+       
+width: 100%;
     }
 
     .home-footer section.pago {
@@ -80,16 +89,35 @@
     
     }
 
+    .home-footer div.footer-container {
+
+        
+       
+        
+    }   
+
 }
+
+
+/*-------------DESKTOP--------------------*/
+
 
 @media (min-width: 769px) {
 
     .home-footer {
        
+/* display: flex; */
+       
+/* width: 95%; */
+       
+/* padding: 0; */
+       
+/* flex-direction: row; */
     }
 
     .home-footer section.pago {
     
+width: 33;
     }
 
     .home-footer section.envio {
@@ -107,8 +135,9 @@
 
     .home-footer h4 {
  
-  
-    }
+font-size: var(--tamañoPrecios);
+ 
+}
 
     .home-footer p {
     
@@ -117,4 +146,16 @@
     .home-footer div i {
     
     }
+
+
+    .home-footer div.footer-container {
+
+        
+        margin: 0;
+                
+        width: 100%;
+                
+        display: flex;
+        
+        }   
 }
