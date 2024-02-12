@@ -1,6 +1,4 @@
-.main.main-register{
-    background-color: var(--grisClaro);
-}
+
 
 .main-register .container-preview-img {
 
@@ -19,20 +17,90 @@
   
 }
 
+/*------ DIVISIONES DE PERFIL DE USUARIO - INTERESES- ENTRE OTROS CAMPOS--------*/
+
+
+.main-register .container-user-profile {
+
+    border-top: 1px dashed var(--amarillo);
+
+}
+
+
+
+
+/**********-------TEXTO---------********/
+
+.main-register .text-custom-info {
+    color: var(--celeste);
+   
+}
+
+.main-register .text-alert-custom {
+
+    font-size: var(--tamañoTextosGral);
+    color: var(--grisOscuro);
+}
+
+
+.main-register .text-custom-title {
+
+    font-size: var(--tamañoTitularesRegistro);
+    color: var(--grisOscuro);
+    opacity: 0.5;
+}
+
+
+
+/**------------INPUTS-------------**/
+
+
+.main-register .custom-input {
+
+    height: 35px;
+    border-radius: 8px;
+}
+
+
+
+/*-------------BOTONES------------------*/
 
 .btn-custom-success {
 
-    background-color: var(--celeste);
+    background-color: var(--verde);
+    transition: all 1s;
+}
+
+
+.btn-custom-success:hover {
+
+    background-color: var(--grisClaro);
 
 }
+
 
 .btn-custom-success a{
-    color: var(--grisClaro)
+    color: var(--grisClaro);
+    transition: all 1s;
 }
 
-.btn-custom-danger{
+
+.btn-custom-success a:hover {
+    color: var(--grisOscuro)
+}
+
+
+.main-register .btn-custom-delete{
 
     background-color: var(--grisOscuro);
     color: var(--grisClaro);
+    transition: all 1s;
+
+}
+
+.main-register .btn-custom-delete:hover {
+
+    background-color: var(--grisClaro);
+    color: var(--grisOscuro);
 
 }

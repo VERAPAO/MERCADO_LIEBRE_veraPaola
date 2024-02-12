@@ -59,42 +59,41 @@
 
             <!--NOMBRE Y APELLIDO-->
             <div class="col-10 col-md-6 col-lg-4 d-flex flex-column mb-3">
-                <label class="text-primary fst-italic" for="nombreYApellido">Nombre y apellido</label>
-                <input class="form-control form-control-sm" type="text" name="nombreYApellido" value="" id="nombreYApellido" minlength="6" maxlength="20" required>
-                <span id="nameuserMessage" class="form-text">Debe tener entre 6 y 20 caracteres.</span>
+                <label class="fst-italic text-custom-info" for="nombreYApellido">Nombre y apellido</label>
+                <input class="form-control form-control-sm custom-input" type="text" name="nombreYApellido" value="" id="nombreYApellido" minlength="6" maxlength="20" required>
+                <span id="invalidMessage" class="text-alert-custom">Debe tener entre 6 y 20 caracteres.</span>
             </div>
 
             <!--NOMBRE DE USUARIO-->
             <div class="col-10 col-md-6 col-lg-4 d-flex flex-column mb-3">
-                <label class="text-primary fst-italic" for="usuari@">Nombre de usuari@</label>
-                <input class="form-control form-control-sm" type="text" name="usuari@" value="" id="usuari@" minlength="4" maxlength="10" required>
-                <span id="nameuserMessage" class="form-text">Debe tener entre 4 y 10 caracteres.</span>
+                <label class="fst-italic text-custom-info" for="usuari@">Nombre de usuari@</label>
+                <input class="form-control form-control-sm custom-input" type="text" name="usuari@" value="" id="usuari@" minlength="4" maxlength="10" required>
+                <span id="invalidMessage" class="text-alert-custom">Debe tener entre 4 y 10 caracteres.</span>
             </div>
 
             <!--EMAIL-->
             <div class="col-10 col-md-6 col-lg-4 d-flex flex-column mb-3">
-                <label class="text-primary fst-italic" for="email">E-mail</label>
-                <input class="form-control form-control-sm" type="email" name="email" value="" id="email">
-                <span id="nameuserMessage" class="form-text">Formato de email inválido.</span>
+                <label class="fst-italic text-custom-info" for="email">E-mail</label>
+                <input class="form-control form-control-sm custom-input" type="email" name="email" value="" id="email">
+                <span id="invalidMessage" class="text-alert-custom">Formato de email inválido.</span>
             </div>
 
             <!--FECHA DE NACIMIENTO-->
             <div class="col-10 col-md-6 col-lg-4 d-flex flex-column mb-3">
-                <label class="text-primary fst-italic" for="fechaNac">Fecha de nacimiento</label>
-                <input class="form-control form-control-sm" type="date" name="fechaNac" value="" id="fechaNac">
+                <label class="fst-italic text-custom-info" for="fechaNac">Fecha de nacimiento</label>
+                <input class="form-control form-control-sm custom-input" type="date" name="fechaNac" value="" id="fechaNac">
             </div>
 
             <!--DOMICILIO-->
             <div class="col-10 col-md-6 col-lg-4 d-flex flex-column mb-3">
-                <label class="text-primary fst-italic" for="callenumero">Domicilio</label>
-                <input class="form-control form-control-sm" type="text" name="callenumero" id="callenumero" value="" placeholder="Calle y número" minlength="6" maxlength="20">
-                <span id="nameuserMessage" class="form-text">Debe tener entre 6 y 20 caracteres.</span>
+                <label class="fst-italic text-custom-info" for="callenumero">Domicilio</label>
+                <input class="form-control form-control-sm custom-input" type="text" name="callenumero" id="callenumero" value="" placeholder="Calle y número" minlength="6" maxlength="20">
+                <span id="invalidMessage" class="text-alert-custom">Debe tener entre 6 y 20 caracteres.</span>
             </div>
                 
             <!--PERFIL DE USUARIO-->
-            <div class="col-10 col-md-12 row mx-2 my-4 p-0">
-                <hr>
-                <h5 class="col-12 fst-italic fw-normal text-secondary">Perfil de usuario</h5>
+            <div class="col-10 col-md-12 row mx-2 my-5 p-0 pt-4 container-user-profile">
+                <h5 class="col-12 mb-3 fst-italic fw-normal text-custom-title">Perfil de usuario</h5>
                     <div class="col-12 col-md-4">
                         <input type="radio" class="form-check-input" name="perfilUsuario" id="comprador" value="comprador" checked>
                         <label for="comprador">Comprador</label>
@@ -108,9 +107,8 @@
 
             <!--INTERESES-->
 
-            <div class="col-10 col-md-12 mx-2 row p-0">
-                <hr>
-                <h5 class="col-12 fst-italic fw-normal text-secondary">Intereses</h5>
+            <div class="col-10 col-md-12 mx-2 row p-0 pt-4 container-user-profile">
+                <h5 class="col-12 fst-italic fw-normal mb-3 text-custom-title">Intereses</h5>
 
                 <div class="col-12 col-md-4">
                     <input type="checkbox" class="form-check-input" name="intereses" id="electro" value="electro">
@@ -141,35 +139,35 @@
 
             <!--FOTO DE USUARI@-->
     
-            <div class="col-10 col-md-12 justify-content-center justify-content-md-start d-flex mx-2 flex-column my-4 row p-0">
-                <hr>
-                <label class="fst-italic text-secondary p-0" for="avatar"><h5 class="fw-normal mb-4 text-nowrap">Tu foto de perfil</h5>
+            <div class="col-10 col-md-12 justify-content-center justify-content-md-start d-flex mx-2 flex-column my-4 row p-0 mt-5 container-user-profile">
+                <label class="fst-italic text-custom-title pt-4 p-0" for="avatar"><h5 class="fw-normal mb-4 text-nowrap">Tu foto de perfil</h5>
                      <figure class="container-preview-img">
                          <img src="https://t4.ftcdn.net/jpg/00/64/67/63/240_F_64676383_LdbmhiNM6Ypzb3FM4PPuFP9rHe7ri8Ju.jpg" alt="avatar default">
                      </figure>
                  </label>
                  <div class="col-12 col-md-6 col-lg-4 p-0">
-                 <input class="form-control form-control-sm mx-auto" type="file" accept=".jpg"  name="avatar" id="avatar" value="avatar" multiple>
+                 <input class="form-control mx-auto custom-input" type="file" accept=".jpg"  name="avatar" id="avatar" value="avatar" multiple>
                  </div>
-                 <hr class="mt-4">
             </div>
 
-            <div class="col-10 col-md-6 col-lg-4 d-flex flex-column mb-3">
-                <label class="text-primary fst-italic" for="contrasenia">Contraseña</label>
-                <input class="form-control form-control-sm" type="password" name="contrasenia" value="" id="contrasenia" minlength="8" maxlength="20">
-                <span id="nameuserMessage" class="form-text">La contraseña debe tener entre 8 y 20 caracteres, al menos una mayúscula y un número.</span>
+        <div class="col-10 col-md-12 mt-4 mx-2 row p-0 py-4 container-user-profile">
+            <div class="col-12 col-md-6 col-lg-4 pt-4  d-flex flex-column mb-3">
+                <label class="text-custom-info fst-italic" for="contrasenia">Contraseña</label>
+                <input class="form-control form-control-sm custom-input" type="password" name="contrasenia" value="" id="contrasenia" minlength="8" maxlength="20">
+                <span id="nameuserMessage" class="text-alert-custom">La contraseña debe tener entre 8 y 20 caracteres, al menos una mayúscula y un número.</span>
             </div>
 
-            <div class="col-10 col-md-6 col-lg-4 d-flex flex-column mb-3">
-                <label class="text-primary fst-italic" for="contraseniaConf">Confirmar contraseña</label>
-                <input class="form-control form-control-sm" type="password" name="contraseniaConf" value="" id="contraseniaConf">
-                <span id="nameuserMessage" class="form-text">La contraseña debe coincidir.</span>
+            <div class="col-12 col-md-6 col-lg-4 pt-4 d-flex flex-column mb-3">
+                <label class="text-custom-info fst-italic" for="contraseniaConf">Confirmar contraseña</label>
+                <input class="form-control form-control-sm custom-input" type="password" name="contraseniaConf" value="" id="contraseniaConf">
+                <span id="nameuserMessage" class="text-alert-custom">La contraseña debe coincidir.</span>
             </div>
+        </div>
             
         
             <div class="d-flex justify-content-center justify-content-lg-end gap-2 mt-4">
                 <button class="btn btn-lg btn-custom-success" type="submit"><a href="/">Enviar</a></button>
-                <button class="btn btn-lg  btn-custom-danger" type="reset">Borrar</button>
+                <button class="btn btn-lg  btn-custom-delete" type="reset">Borrar</button>
             </div>
 
         </form>
