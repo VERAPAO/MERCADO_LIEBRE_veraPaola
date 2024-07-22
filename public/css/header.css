@@ -134,7 +134,7 @@ header-home div.iconsearch-header-home {
 }
 
 .header-home div.nav-container {
-        
+        max-width: 99%;
 }
 
 .header-home nav {
